@@ -19,12 +19,11 @@ def join_ingredients(src)
         else
           element2 = src[row_index][element_index]
         end
-       
         element_index += 1
     end
      inner_results << "I love #{element1} and #{element2} on my pizza"
      outer_results<< inner_results
-    row_index += 1
+     row_index += 1
   end
   outer_results
 end
