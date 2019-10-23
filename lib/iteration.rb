@@ -46,7 +46,7 @@ while row_index < src.count do
         element_index += 1
     end
      inner_results = [element1, element2]
-     sorted = inner_results.sorted
+     sorted = inner_results.sort
      inner_results << sorted[-1]
      outer_results<< inner_results
      row_index += 1
