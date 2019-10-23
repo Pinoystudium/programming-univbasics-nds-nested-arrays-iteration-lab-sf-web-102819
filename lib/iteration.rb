@@ -21,7 +21,7 @@ def join_ingredients(src)
         end
         element_index += 1
     end
-     inner_results = "I love #{element1} and #{element2} on my pizza"
+     inner_results << "I love #{element1} and #{element2} on my pizza"
      outer_results<< inner_results
      row_index += 1
   end
