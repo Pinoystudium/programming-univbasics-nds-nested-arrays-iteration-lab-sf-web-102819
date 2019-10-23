@@ -65,7 +65,24 @@ def total_even_pairs(src)
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
-
-
-
+outer_results = []
+row_index = 0
+while row_index < src.count do
+  element_index = 0
+  inner_results = []
+      while element_index < src[row_index].count do
+         if element_index % 2 == 0
+          element1 = src[row_index][element_index]
+        else
+          element2 = src[row_index][element_index]
+        end
+        element_index += 1
+      end
+        if element1 % 2 ==0 and element2 % 2 ==0
+          inner_results = element1 + element2
+          outer_results<< inner_results
+          row_index += 1
+        end  
+  end
+  outer_results
 end
