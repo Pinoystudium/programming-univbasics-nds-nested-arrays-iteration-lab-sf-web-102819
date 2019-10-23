@@ -40,8 +40,9 @@ while row_index < src.count do
       while element_index < src[row_index].count do
         sorted = src.sort
         inner_results << sorted[-1]
-        element_index +=1
+        
       end
+      
       outer_results<< inner_results
       row_index += 1
 end
