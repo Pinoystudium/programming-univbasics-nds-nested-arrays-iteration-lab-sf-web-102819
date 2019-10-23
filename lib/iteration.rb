@@ -82,7 +82,7 @@ while row_index < src.count do
           total += sum
          
         end  
-        
+         row_index += 1
   end
  total
 end
