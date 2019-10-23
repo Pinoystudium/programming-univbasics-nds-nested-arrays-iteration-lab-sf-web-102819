@@ -78,7 +78,7 @@ while row_index < src.count do
         end
         element_index += 1
       end
-        if element1 % 2 ==0 and element2 % 2 ==0
+        if element1 % 2 ==0 && element2 % 2 ==0
           inner_results = element1 + element2
           outer_results<< inner_results
           row_index += 1
