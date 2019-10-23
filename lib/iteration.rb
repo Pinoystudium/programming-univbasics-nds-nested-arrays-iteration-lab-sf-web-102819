@@ -77,7 +77,7 @@ while row_index < src.count do
         end
         element_index += 1
       end
-        while element1 % 2 ==0 && element2 % 2 ==0 do
+        if element1 % 2 ==0 && element2 % 2 ==0 
           sum = element1 + element2
           total += sum
           row_index += 1
