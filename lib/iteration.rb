@@ -26,7 +26,7 @@ def join_ingredients(src)
     src << inner_results
     row_index += 1
   end
-  return src
+  src
 end
 
 def find_greater_pair(src)
