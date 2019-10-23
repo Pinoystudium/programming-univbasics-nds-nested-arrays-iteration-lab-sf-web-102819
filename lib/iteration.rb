@@ -80,8 +80,9 @@ while row_index < src.count do
         if element1 % 2 ==0 && element2 % 2 ==0 
           sum = element1 + element2
           total += sum
-          row_index += 1
+         
         end  
+        
   end
  total
 end
