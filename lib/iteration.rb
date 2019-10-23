@@ -14,7 +14,7 @@ def join_ingredients(src)
     element_index = 0
     inner_results = []
     while element_index < src[row_index].count do
-        if (src[element_index].count) % 2 == 0
+        if element_index % 2 == 0
           element1 = src[row_index][element_index]
         else
           element2 = src[row_index][element_index]
