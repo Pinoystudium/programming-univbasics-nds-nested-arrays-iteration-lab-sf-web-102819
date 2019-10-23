@@ -21,11 +21,12 @@ def join_ingredients(src)
           inner_array_element1 = array_1[row_index][element_index]
         end
         inner_results << "I love #{inner_array_element0} and #{inner_array_element1} on my pizza"
-      end
-      element_index += 1
+        element_index += 1
     end
     src << inner_results
     row_index += 1
+  end
+  return src
 end
 
 def find_greater_pair(src)
