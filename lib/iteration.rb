@@ -42,7 +42,7 @@ while row_index < src.count do
         inner_results = sorted[-1]
         
       end
-      element_index +=1
+     
       outer_results<< inner_results
       row_index += 1
 end
